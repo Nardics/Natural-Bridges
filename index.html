@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Hootentown: Large and In Charge</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<link rel='icon' href='/favicon.ico' type='image/x-icon' >
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,900i" rel="stylesheet">
+
+	<style>
+		/* 
+			UK Colors: 
+            #c7c9c8 light gray 
+            #63666a dark gray
+            #15397f dark blue
+            #009bda light blue
+            #0033a0 official blue
+        */
+		body {
+			margin: 0;
+			padding: 0;
+			background: #c7c9c8;
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			color: #3d3d3d;
+			font-size: 1.1em;
+
+		}
+
+		section {
+			width: 80%;
+			margin: 10px auto;
+		}
+
+		h1 {
+			font-family: 'Lato', sans-serif;
+			font-weight: 900i;
+			font-size: 2.6em;
+			font-style: italic;
+			/* The em unit. 3x the current size */
+			letter-spacing: .02em;
+			margin: 0 0 15px 0;
+			/* text-transform: uppercase; */
+		}
+
+		h2 {
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			color: #63666a;
+			font-size: 1.5em;
+			letter-spacing: .06em;
+			font-style: italic;
+			margin: 0 0 25px 0;
+		}
+		
+		h3 {
+			font-size: 1.2em;
+		}
+
+
+		p {
+			font-size: 1.15em;
+			line-height: 1.8em;
+			margin: 0 0 25px 0;
+		}
+
+		a {
+			color: #15397f;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding: 0px 20px 4px 20px;
+			/* font-size: 0.96em; */
+			line-height: 1.6em;
+			color: #63666a;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		hr{
+			margin-top: 20px;
+			border: 0;
+    		height: 1px;
+    		background: #63666a;
+    		background-image: linear-gradient(to right, #c7c9c8, #63666a, #c7c9c8);
+		}
+
+		#map {
+			width: 100%;
+			margin: 0px auto;
+
+		}
+
+		.max-image-width {
+			width: 100%;
+		}
+
+		/* add custom style class here */
+
+		.linkbox {
+			margin: 3px 0 20px 0;
+			display: block;
+			font-weight: 300;
+		}
+
+
+		/* Use float property to make two-column layout */
+
+		.first-column {
+			float: left;
+			width: 48%;
+			padding-right: 20px;
+		}
+
+		.column {
+			float: left;
+			width: 48%;
+		}
+
+		/* Clear floats after the columns */
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* When browser is 800px wide or less */
+
+		@media screen and (max-width: 800px) {
+
+			.first-column,
+			.column {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<iframe src="hooten.html" width="100%" height="440px"></iframe>
+	<section>
+		<a href='full.html' class="linkbox">Full-screen version</a>
+		<div class="linkbox">
+		
+		</div>
+		<meta The map was produced on behalf of Wild Eye Adventures. The aim, is to showcase one of the 
+		many natural landforms existing across the United States. The criteria included displayed elevation contours around the landform
+		when zoomed in, but display a uniform landform type at a wider zoom. Suitable landforms include (but are not limited to) natural 
+		arches.
+		The final determination was made to highlight Hootentown Natural Arch, situated in south-west Missouri. It is arguably the largest 
+		natural arch in the state.
+		meta>
+
+		<img src="arches.svg" style="float:left;display:inline-block;width:75px;margin:-8px 10px -8px 0;">
+		<h1>Hootentown Natural Arch</h1>
+		<h2>New Maps Plus</h2>
+
+		<div class="row">
+			<div class="first-column">
+
+				<h3>Hootentown Natural Arch</h3>
+				<p>
+			Hootentown Arch spans an impressive 80 feet with a height of roughly 60 feet.</a> 
+			Situated in Stone County in south-west Missouri, the Hootentown sits on the James River. This natural Wonder
+			spans approximately 80 feet, and reaches an approximate height of 80 feet, according to <a href="https://naturalatlas.com/arches/hootentown-natural-1700675">Natural Atlas</a> 
+			The arch counts as one of thirty-one of the know arches in the state. It also goes by several names including the James River Natural Arch,
+			and the Inman Natural Arch. </a>
+			<p></p>
+			<a href="https://ccheadliner.com/opinion/mozarks-moments-by-any-name-this-arch-is-a-geologic-wonder/article_78df0b30-47f9-11e8-98c7-c77533a63698.html"> A bit of history</a>
+
+
+				</p>
+				
+				<hr class="styled">
+				<h3>Data used in this project</h3>
+
+				<p>
+					Arch locations are extracted from the Domestic and Antarctic Names (State and Topical Gazetteer) published by the United
+					States Board on Geographic Names. (<a hred="https://geonames.usgs.gov/domestic">geonames.usgs.gov</a>). Data
+					accessed August, 2018. 
+				</p>
+				<p>	
+					Contour intervals of 20 feet with labeled index contours every 100 feet were used to illustrate elevation. 
+					<p>Original elevation data source: <a href="https://viewer.nationalmap.gov/basic/?basemap=b1&category=ned,nedsrc&title=3DEP%20View">The National Map (USGS)</a>
+					<p>Site vector data was extracted from the NED 1/3 arc-second raster digital elevation model (approximately 10-meter resolution), from the above source.
+				</p>
+				<hr class="styled">
+				<h3>Resources Employed</h3>
+				<ul>
+					<li>QGIS 3.12.1, on Windows 10 Machine to convert raster data and create elevation contour references.</li>
+					<li>Data is shown on Mapbox web map with geolocation services enabled.</li>
+					
+					</ul>
+										
+								
+					</ul>
+						<!-- <h3>Additional maps of the Arches</h3>
+					<ul>
+						<li><a href="/waterways">Major waterways of Kentucky</a></li>
+						<li><a href="/population">Kentucly's population density</a></li>
+						<li><a href="/springs">Springs in Kentucky</a></li>
+					</ul> -->
+					</p>
+					<!-- 
+				<h3>Student media</h3>
+				<iframe src="https://player.vimeo.com/video/267871470" width="100%" height="360" frameborder="0" allowfullscreen></iframe>
+				<p class="linkbox">Photos of Hootentown Arch</p>-->
+
+			</div>
+			<div class="column">
+				<img class="max-image-width" src="https://ugc.naturalatlas.com/photos/0/43/351/43351/PpmPeDDW/600.jpg?1559164512" title="Hootentown Natural Arch">
+				<div class="linkbox">Hootentown Natural Arch. Photography by artistmissie (2019)</div>
+				<div></div>
+				<break>
+				</break>
+				<div></div>
+				<img class="max-image-width" src="http://www.archesuk.com/assets/images/db_images/db_Hootentown_Arch-after1.jpg" title="Hootentown Natural Arch">
+				<div class="linkbox">Hootentown Natural Arch. Source: <a href="http://www.archesuk.com/html/missouri_3.html"> Archesuk</a></div>
+
+			</div>
+		</div>
+				<!-- <h4><a href="https://uky-gis.github.io">UKy GIS and Mapping</a></h4> -->
+	
+		<li>See my projects on GitHub: <a href="https://github.com/newmapsplus">New Maps Plus</a></li>
+
+		<li>Follow me on twitter: <a href="https://twitter.com/BajanTheNard">@BajanTheNard</a></li>
+	</section>
+
+
+</body>
+
+</html>
